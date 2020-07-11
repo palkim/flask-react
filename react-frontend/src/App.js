@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
           <img src={garfield} alt="have some fun"/>
         <p>
-          This token came from flask
+          Below token came from flask:
         </p>
           <p>{window.token}</p>
       </header>
