@@ -1,5 +1,4 @@
-# flask-react
-## serving react with a flask backend
+# flask-react: serving react with a flask backend
 ## how it works?
 * clone the repo
 * open it on your fav ide
