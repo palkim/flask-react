@@ -5,9 +5,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
+        <a>
           Below token came from flask:
-        </p>
+        </a>
           <p>{window.token}</p>
       </header>
     </div>
