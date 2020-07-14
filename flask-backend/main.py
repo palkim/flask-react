@@ -7,15 +7,15 @@ from sqlalchemy import create_engine
 app = flask.Flask("__main__")
 
 # database server connection
-# engine = create_engine('mssql+pyodbc://starraider:Marks&Spencer@starraider.database.windows.net/starraider.database'
-#                       '.windows.net')
-# conn = engine.connect()
+# server = 'starraider.database.windows.net' 
+# database = 'starraider.database.windows.net' 
+# username = 'starraider' 
+# password = 'Marks&Spencer' 
+# conn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
+# cursor = conn.cursor()
 
 # sql query
 # result = conn.execute(“select Data from HelloWorld”)
-
-# with engine.connect() as connection:
-#    result = connection.execute("select Data from HelloWorld")
 
 
 @app.route("/")
